@@ -6,15 +6,16 @@ var Day = React.createClass({
 
   getInitialState: function(){
     return {
-      temp:this.props.data[0].temp.day,
+      temp:0,
     }
   },
 
+
   render: function(){
-    console.log(this.state.temp);
+      console.log(this.props);
       return (
           <div>
-            <h2>Test</h2>
+            <h2>{this.props.data[0].temp.max}</h2>
           </div>
       );
   }
