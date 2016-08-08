@@ -15,8 +15,7 @@ var Day = React.createClass({
     console.log(this.props);
       return (
           <div>
-          <h1>Fuck</h1>
-          {this.props.data.temp.max}
+            <h2>Worked</h2>
           </div>
       );
   }
